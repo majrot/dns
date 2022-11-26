@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Created By Satmaxt Developer
 # Some methods from 233boy/v2ray
 
 check_if_running_as_root() {

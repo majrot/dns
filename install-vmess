@@ -121,7 +121,7 @@ install_v2ray() {
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "/${wsPath}/"
+					"path": "/${wsPath}"
 				}
 			}
 		},
@@ -146,7 +146,7 @@ install_v2ray() {
 				"kcpSettings": {},
 				"httpSettings": {},
 				"wsSettings": {
-					"path": "/${wsPath}/",
+					"path": "/${wsPath}",
 					"headers": {
 						"Host": "${domain}"
 					}
@@ -255,7 +255,7 @@ EOF
   "net": "ws",
   "type": "none",
   "host": "${domain}",
-  "path": "/${wsPath}/",
+  "path": "/${wsPath}",
   "tls": "tls"
 }
 EOF
@@ -271,7 +271,7 @@ EOF
   "net": "ws",
   "type": "none",
   "host": "${domain}",
-  "path": "/${wsPath}/",
+  "path": "/${wsPath}",
   "tls": ""
 }
 EOF

@@ -3,7 +3,7 @@
 # ===================================
 
 function import_string() {
-    export SCRIPT_URL='https://scripts.sshcf.my.id/xray'
+    export SCRIPT_URL='https://github.com/majrot/xray'
     export RED="\033[0;31m"
     export GREEN="\033[0;32m"
     export YELLOW="\033[0;33m"
@@ -47,7 +47,7 @@ function check_architecture() {
 }
 
 function install_requirement() {
-    wget https://scripts.sshcf.my.id/adds/cf.sh && chmod +x cf.sh && ./cf.sh
+    https://raw.githubusercontent.com/majrot/dns/main/cf.sh
     hostname=$(cat /root/domain)
 
     # Membuat Folder untuk menyimpan data utama
